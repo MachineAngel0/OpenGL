@@ -152,6 +152,9 @@
     <ClCompile Include="..\..\..\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\src\glad.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
