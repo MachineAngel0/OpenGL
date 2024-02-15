@@ -76,7 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;C:\Users\Adams Humbert\source\vulkan_stuff\OpenGL Tutorials\Shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -94,7 +94,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;C:\Users\Adams Humbert\source\vulkan_stuff\OpenGL Tutorials\Shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -115,7 +115,7 @@
       <AdditionalOptions>/w44365 %(AdditionalOptions)</AdditionalOptions>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;C:\Users\Adams Humbert\source\vulkan_stuff\OpenGL Tutorials\Shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,7 +136,7 @@
       <AdditionalOptions>/w44365 %(AdditionalOptions)</AdditionalOptions>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glfw-3.3.9.bin.WIN64\include;C:\Users\Adams Humbert\Documents\Visual Studio 2022\Libraries\glad opengl 4.6\include;C:\Users\Adams Humbert\source\vulkan_stuff\OpenGL Tutorials\Shaders;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -153,7 +153,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader_s.h" />
+    <ClInclude Include="Shaders\shader_s.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
